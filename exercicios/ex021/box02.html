@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(61, 61, 61);
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        header > h1{
+            text-align: center;
+        }
+
+        nav{
+            background-color: rgb(100, 98, 98);
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.329);
+        }
+        nav > a{
+            color: white;
+            margin-right: 40px;
+            text-decoration: none;
+            padding: 5px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+            color: antiquewhite;
+            /*horizontal, vertical, espalhamento e cor*/
+        }
+        
+        main{
+            background-color: white;
+            margin: 10px;
+            margin-bottom: 0px;
+            border-radius: 10px;
+        }
+
+        article > p{
+            background-color: rgba(169, 169, 169, 0.541);
+            text-indent: 30px;
+            text-align: justify;
+        }
+
+        article > aside{
+            background-color: rgb(82, 82, 82);
+            color: white;
+        }
+        
+        footer{
+            background-color: black;
+            color: white;
+            padding: 5px;
+            text-align: center;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+
+        /*div#bola{
+            width: 100px;
+            height: 100px;
+            background-color: white;
+            margin: 10px;
+            border-radius: 50%;
+        }*/
+    </style>
+</head>
+<body>
+    <!--<div> e <span> eram usadas muito no HTML 4 para agrupar conteúdos, mas surgiram tags semânticas que veremos agora-->
+    <header> <!--Cabeçalho-->
+        <h1>Meu site</h1>
+        <nav> <!--Menu de navegação-->
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+
+    <main> <!--Conteúdo principal-->
+        <section id="assuntos">
+
+        </section>
+        
+        <section id="noticias">
+            <article>
+                <h2>Assuntos de TI</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia magnam veniam assumenda cumque numquam dignissimos sed unde animi sit nobis pariatur, perferendis nisi sequi nostrum dolor. Consequuntur quidem quas quia!</p>
+                <aside>
+                    <p>Desenvolvido por Gustavo Guanabara</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+
+    <footer> <!--Rodapé-->
+        <p>Desenvolvido pelo curso em video</p>
+    </footer>
+
+    <!--<div id="bola"></div>-->
+</body>
+</html>

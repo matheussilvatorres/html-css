@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        /*Medidas Absolutas: cm, mm, in(polegada), px, pt(ponto), pc(paica)
+        
+        Medidas Relativas: em (medida relativa ao tamanho atual da fonte), ex (medida relativa a altura X de uma fonte), rem (tipo o em, medida relativa ao Root, fonte que está configurada no body), Vw (largura da wiport "tamanho da tela"), VH (altura da wiport), %*/
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            /*primeiro tenta Arial, se não achar tenta  a Helvetica, e se também não achar irá por uma sem serifa por padrão, pois alguns aparelhos móveis podem ter somente a Arial ou somente a Helvetica, então primeiro ele tenta a Arial se não conseguir reproduzir tenta a Helvetica*/
+        }
+        h1{
+            /*16px geralmente = 1em*/
+            font-family: 'Times New Roman', Times, serif;
+            /*16px geralmente = 1em*/
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At, quam molestias dolore obcaecati a est accusamus debitis laudantium pariatur accusantium asperiores quod possimus? Ut laboriosam mollitia minima maiores veritatis odit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, iusto excepturi. Error ipsa dignissimos eveniet harum omnis, libero, ipsum similique eligendi perferendis, aut odio nesciunt amet et aliquam sit ad.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, nulla! Hic praesentium libero sint esse aperiam! Totam soluta harum ut odio, reprehenderit recusandae provident officiis repudiandae tenetur ullam modi quia.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic deserunt voluptatibus? Minima aliquam tempora nulla quis cupiditate eveniet expedita quo dolores necessitatibus veritatis tenetur maiores, repellendus autem numquam! Omnis?</p>
+</body>
+</html>

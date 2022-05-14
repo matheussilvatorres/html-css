@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradiente em CSS</title>
+    <style>
+        * { /*Configurações globais da CSS, para quando usar to top*/
+                height: 100%;
+        }
+        body{
+            /*No lugar de 90deg(versão escrita em graus). Podemos utilizar (to right, to left, to top, to bottom)
+            1° Direção; E quantas cores você quiser*/
+            background-image: linear-gradient(45deg, #873A97, #A13D9D, #AE285A, #D8174C, #BA1C2B, #CE2A0A );
+            background-attachment: fixed; /*Deixar o Fundo fixo*/
+            /* Outra forma de fazer degradê
+            background-image: radial-gradient(circle, #873A97, #A13D9D, #AE285A, #D8174C, #BA1C2B, #CE2A0A );*/
+            }
+    </style>
+</head>
+<body>
+    <h1>Testando Gradiente</h1>
+</body>
+</html>

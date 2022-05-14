@@ -1,0 +1,36 @@
+@charset "UFT-8";
+
+body{
+    background-color: rgb(161, 228, 172);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: rgb(25, 117, 40);
+}
+
+#principal{ /*pode ser representado (h1#principal) ou só (#principal)*/
+    color: rgb(2, 61, 2);
+    font-size: 3em;
+    text-align: center;
+}
+
+h2{
+    color: rgb(36, 54, 39);
+}
+
+.basica{
+    color: rgb(25, 117, 40);
+}
+
+.intermediaria{
+    color: rgb(103, 117, 25);
+}
+
+.avancada{
+    color: rgb(117, 25, 25);
+}
+
+.destaque{
+    background-color: rgba(221, 221, 143, 0.493);
+}
