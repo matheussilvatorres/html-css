@@ -10,6 +10,13 @@
     <h1>Trabalhando a seguraça com o uso de iframes</h1>
     <h2>Meu site pri0ncipal</h2>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore autem nulla magnam quod veritatis veniam, animi provident nostrum asperiores adipisci ut voluptate laboriosam atque ex natus aspernatur, molestiae voluptates sed.</p>
+    <!-- Sandbox = sandbox é o mais seguro, ele limita as ações de captura da dados junto com o referrerpolicy, mas usamos outro parametro para permetir executar o formulário.
+    Sandbox = segurança no maximo 
+    e permitir o que quiser usar nesse exemplo usamos 
+    allow-same-origin  permitindo coisas da mesma origem (mesma página que a nossa)
+    allow-forms permetir formulários 
+    allow-scripts permetir scripts
+    -->
     <iframe src="pages/pagina004.html" sandbox="allow-same-origin allow-forms allow-scripts" referrerpolicy="no-referrer">>
         seu navegador não é compatível com iframes...
     </iframe>
