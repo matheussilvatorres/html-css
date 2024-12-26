@@ -26,13 +26,14 @@ header{
 }
 
 header > h1{
-    border: 1px dotted black;
+    /*border: 1px dotted black;*/
     margin-bottom: 10px;
     flex: 0 0 200px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.599);
 }
 
 header > nav{
-    border: 1px dotted black;
+    /*border: 1px dotted black;*/
 
     display: flex;
     flex-flow: row wrap;
@@ -60,8 +61,15 @@ main{
     padding: 10px;
     border-radius: 10px;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.411);
-    width: 600px;
     margin: auto;
     margin-top: 10px;
 }
+
+@media screen and (min-width: 580px) and (max-width: 1400px){
+
+   main{
+    width: 600px;
+   }
+}
+
 
