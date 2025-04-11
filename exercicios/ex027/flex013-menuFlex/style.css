@@ -18,7 +18,6 @@ header{
     background-color: gray;
     color: white;
     padding: 10px;
-
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -30,6 +29,21 @@ header > h1{
     margin-bottom: 10px;
     flex: 0 0 200px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.599);
+}
+
+#burguer{
+    background-color: rgb(48, 48, 48);
+    color: white;
+    width: 90vw;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#burguer:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
 }
 
 header > nav{
@@ -65,11 +79,16 @@ main{
     margin-top: 10px;
 }
 
-@media screen and (min-width: 580px) and (max-width: 1400px){
+@media screen and (min-width: 610px){
+    #burguer{
+        display: none;
+    }
+}
 
+@media screen and (min-width: 580px) and (max-width: 1400px){
    main{
     width: 600px;
-   }
+   } 
 }
 
 
